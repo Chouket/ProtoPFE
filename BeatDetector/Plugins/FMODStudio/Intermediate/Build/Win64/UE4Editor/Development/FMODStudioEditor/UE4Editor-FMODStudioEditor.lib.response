@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FMODStudioEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\AssetTypeActions_FMODEvent.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODAudioComponentDetails.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODAudioComponentVisualizer.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODEventEditor.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODStudioEditorModule.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODStudioStyle.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\SFMODEventEditorPanel.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODChannelEditors.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODEventControlTrackEditor.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODEventParameterTrackEditor.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODParameterSection.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODAmbientSoundActorFactory.gen.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODChannelEditors.gen.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\FMODStudioEditor.init.gen.cpp.obj"
+"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\PCLaunch.rc.res"
+/OUT:"D:\Isart\PFE\Rythm of Demon\BeatDetector\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudioEditor\UE4Editor-FMODStudioEditor.lib"

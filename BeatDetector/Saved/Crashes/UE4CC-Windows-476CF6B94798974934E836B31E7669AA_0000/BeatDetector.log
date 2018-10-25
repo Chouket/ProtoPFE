@@ -1,0 +1,832 @@
+﻿Log file open, 10/15/18 09:45:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BeatDetector
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309308
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin FMODStudio
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.126s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.15-07.45.04:444][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.15-07.45.04:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.15-07.45.04:453][  0]LogHAL: Display: Platform has ~ 16 GB [17038475264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.15-07.45.04:453][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.15-07.45.04:453][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.15-07.45.04:454][  0]LogInit: Computer: DESKTOP-E9OTVM9
+[2018.10.15-07.45.04:454][  0]LogInit: User: masto
+[2018.10.15-07.45.04:454][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.15-07.45.04:454][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2018.10.15-07.45.04:454][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.15-07.45.04:454][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.15-07.45.04:454][  0]LogMemory: Process Physical Memory: 101.32 MB used, 101.32 MB peak
+[2018.10.15-07.45.04:454][  0]LogMemory: Process Virtual Memory: 94.17 MB used, 94.17 MB peak
+[2018.10.15-07.45.04:454][  0]LogMemory: Physical Memory: 7177.04 MB used,  9072.11 MB free, 16249.16 MB total
+[2018.10.15-07.45.04:454][  0]LogMemory: Virtual Memory: 4654.99 MB used,  9072.11 MB free, 134217728.00 MB total
+[2018.10.15-07.45.04:482][  0]LogInit: Using OS detected language (fr-FR).
+[2018.10.15-07.45.04:482][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.10.15-07.45.04:483][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2018.10.15-07.45.04:485][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
+[2018.10.15-07.45.04:485][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.15-07.45.04:529][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.15-07.45.04:529][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.15-07.45.04:793][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.15-07.45.04:793][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.15-07.45.04:858][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2018.10.15-07.45.04:858][  0]LogD3D11RHI:       6052/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.15-07.45.04:873][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.15-07.45.04:873][  0]LogD3D11RHI:       128/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.15-07.45.04:875][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.15-07.45.04:875][  0]LogD3D11RHI:       0/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.15-07.45.04:875][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.15-07.45.04:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.15-07.45.04:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.15-07.45.04:906][  0]LogWindows: EnumDisplayDevices:
+[2018.10.15-07.45.04:907][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.10.15-07.45.04:907][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.15-07.45.04:907][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.15-07.45.04:907][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2018.10.15-07.45.04:908][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2018.10.15-07.45.04:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2018.10.15-07.45.04:908][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
+[2018.10.15-07.45.04:908][  0]LogD3D11RHI:      Driver Date: 9-25-2018
+[2018.10.15-07.45.04:908][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.10.15-07.45.04:954][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.15-07.45.04:976][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.15-07.45.04:977][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (D:/Isart/PFE/Rythm of Demon/BeatDetector/Intermediate/Shaders/WorkingDirectory/1424/).
+[2018.10.15-07.45.04:977][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/masto/AppData/Local/Temp/UnrealShaderWorkingDir/9967BBD243A5233F1C94A19D79E99874/'.
+[2018.10.15-07.45.05:287][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.15-07.45.05:301][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.15-07.45.05:316][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.15-07.45.05:332][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.15-07.45.05:347][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.15-07.45.05:362][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.15-07.45.05:377][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.15-07.45.05:391][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.15-07.45.05:399][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:487][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.15-07.45.05:488][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.15-07.45.05:551][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.15-07.45.05:551][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.15-07.45.05:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.15-07.45.05:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.15-07.45.05:590][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.15-07.45.05:603][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.15-07.45.05:616][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.15-07.45.05:631][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.15-07.45.05:640][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.15-07.45.05:640][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.15-07.45.05:715][  0]LogXGEController: Cleaning working directory: C:/Users/masto/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.15-07.45.05:715][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.15-07.45.05:715][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.15-07.45.05:715][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.15-07.45.06:546][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/masto/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/masto/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Isart/PFE/Rythm of Demon/BeatDetector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Isart/PFE/Rythm of Demon/BeatDetector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.15-07.45.06:613][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.15-07.45.06:625][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.15-07.45.06:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/masto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.15-07.45.06:638][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.15-07.45.06:638][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.15-07.45.06:657][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.15-07.45.06:659][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.15-07.45.06:659][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.15-07.45.06:739][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.10.15-07.45.07:074][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.15-07.45.07:223][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.15-07.45.07:227][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.15-07.45.07:227][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.15-07.45.07:227][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.15-07.45.07:227][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.15-07.45.07:245][  0]LogNetVersion: BeatDetector 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2423018307)
+[2018.10.15-07.45.07:798][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.101086 seconds
+[2018.10.15-07.45.07:805][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.15-07.45.07:805][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.15-07.45.07:805][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.15-07.45.08:706][  0]LogFMOD: FFMODStudioModule startup
+[2018.10.15-07.45.08:706][  0]LogFMOD:  Lib path = 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Plugins/FMODStudio/Binaries'
+[2018.10.15-07.45.08:706][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading D:/Isart/PFE/Rythm of Demon/BeatDetector/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.10.15-07.45.08:708][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading D:/Isart/PFE/Rythm of Demon/BeatDetector/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.10.15-07.45.08:738][  0]LogFMOD: Loading strings bank: D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.10.15-07.45.08:740][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Aaron_Smith_-_Dancin_(KRONO_Remix)
+[2018.10.15-07.45.08:740][  0]LogFMOD: Skipping asset: bus:/
+[2018.10.15-07.45.08:740][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.10.15-07.45.08:740][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.10.15-07.45.08:740][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.10.15-07.45.08:743][  0]LogFMOD: Default sample rate = 48000
+[2018.10.15-07.45.08:743][  0]LogFMOD: System sample rate = 48000
+[2018.10.15-07.45.08:743][  0]LogFMOD: Matching system sample rate 48000
+[2018.10.15-07.45.10:503][  0]LogFMOD: Default sample rate = 48000
+[2018.10.15-07.45.10:503][  0]LogFMOD: System sample rate = 48000
+[2018.10.15-07.45.10:503][  0]LogFMOD: Matching system sample rate 48000
+[2018.10.15-07.45.10:585][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.15-07.45.10:599][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.15-07.45.10:766][  0]SourceControl: Source control is disabled
+[2018.10.15-07.45.10:766][  0]SourceControl: Source control is disabled
+[2018.10.15-07.45.10:768][  0]SourceControl: Source control is disabled
+[2018.10.15-07.45.10:769][  0]SourceControl: Source control is disabled
+[2018.10.15-07.45.10:849][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.10.15-07.45.10:981][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.15-07.45.11:014][  0]LogOcInput: OculusInput pre-init called
+[2018.10.15-07.45.11:092][  0]LogEngine: Initializing Engine...
+[2018.10.15-07.45.11:094][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.15-07.45.11:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.15-07.45.11:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.15-07.45.11:096][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.15-07.45.11:096][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.15-07.45.11:341][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.15-07.45.11:356][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.15-07.45.11:424][  0]LogInit: XAudio2 using 'Haut-parleurs / écouteurs (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.15-07.45.11:502][  0]LogInit: FAudioDevice initialized.
+[2018.10.15-07.45.11:503][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.15-07.45.11:751][  0]LogDerivedDataCache: Saved boot cache 0.25s 71MB C:/Users/masto/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.15-07.45.11:760][  0]LogInit: Texture streaming: Enabled
+[2018.10.15-07.45.11:780][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.15-07.45.11:796][  0]LogInit: Transaction tracking system initialized
+[2018.10.15-07.45.11:825][  0]BlueprintLog: New page: Editor Load
+[2018.10.15-07.45.12:002][  0]LocalizationService: Localization service is disabled
+[2018.10.15-07.45.12:310][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.15-07.45.12:310][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.15-07.45.12:310][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.15-07.45.12:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.15-07.45.12:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.15-07.45.12:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.15-07.45.12:310][  0]LogFileCache: Scanning file cache for directory 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/' took 0.01s
+[2018.10.15-07.45.12:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.15-07.45.12:446][  0]SourceControl: Source control is disabled
+[2018.10.15-07.45.12:446][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.15-07.45.12:447][  0]LightingResults: New page: Lighting Build
+[2018.10.15-07.45.12:450][  0]MapCheck: New page: Map Check
+[2018.10.15-07.45.12:450][  0]LightingResults: New page: Lighting Build
+[2018.10.15-07.45.12:665][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.15-07.45.12:674][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.15-07.45.12:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.15-07.45.12:787][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90,296ms to complete.
+[2018.10.15-07.45.12:787][  0]LogFileHelpers: Loading map 'Template_Default' took 0.341
+[2018.10.15-07.45.12:901][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-07.45.12:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-07.45.12:918][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-07.45.12:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.15-07.45.12:934][  0]LogCollectionManager: Loaded 0 collections in 0.001814 seconds
+[2018.10.15-07.45.12:977][  0]LogFileCache: Scanning file cache for directory 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Collections/' took 0.01s
+[2018.10.15-07.45.12:977][  0]LogFileCache: Scanning file cache for directory 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Developers/masto/Collections/' took 0.01s
+[2018.10.15-07.45.12:978][  0]LogFileCache: Scanning file cache for directory 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Collections/' took 0.01s
+[2018.10.15-07.45.12:978][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.10.15-07.45.12:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2590 classes and 614 folders.
+[2018.10.15-07.45.12:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.15-07.45.13:044][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.15-07.45.13:050][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.15-07.45.13:065][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.15-07.45.13:070][  0]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.15-07.45.13:083][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.15-07.45.13:172][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.10.15-07.45.13:218][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.15-07.45.13:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.15-07.45.13:378][  0]LogLoad: (Engine Initialization) Total time: 11.30 seconds
+[2018.10.15-07.45.13:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.15-07.45.13:388][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.15-07.45.13:408][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.15-07.45.13:429][  1]LogFMOD: File has changed: D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.10.15-07.45.13:509][  1]LogFMOD: Loading strings bank: D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.10.15-07.45.13:511][  1]LogFMOD: Skipping asset: bus:/
+[2018.10.15-07.45.13:511][  1]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.10.15-07.45.13:513][  1]LogFMOD: Default sample rate = 48000
+[2018.10.15-07.45.13:513][  1]LogFMOD: System sample rate = 48000
+[2018.10.15-07.45.13:513][  1]LogFMOD: Matching system sample rate 48000
+[2018.10.15-07.45.13:740][  1]LogFMOD: Default sample rate = 48000
+[2018.10.15-07.45.13:740][  1]LogFMOD: System sample rate = 48000
+[2018.10.15-07.45.13:740][  1]LogFMOD: Matching system sample rate 48000
+[2018.10.15-07.45.13:881][  1]LogAssetRegistry: Asset discovery search completed in 7.1650 seconds
+[2018.10.15-07.45.13:883][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.15-07.45.13:883][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.10.15-07.45.19:077][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-07.45.42:495][984]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.15-07.45.42:567][984]LogSlate: Took 0.004943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.15-07.47.42:234][401]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -invalidatemakefilesonly
+[2018.10.15-07.47.43:146][401]Invalidating makefiles only in this run.
+[2018.10.15-07.47.43:381][401]Candidate modules for hot reload:
+[2018.10.15-07.47.43:381][401]  BeatDetector
+[2018.10.15-07.47.43:381][401]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,2338 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: New page: Compilation - 15 oct. 2018 11:58:57
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (no existing makefile)
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-07.58.57:257][401]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 11,824738 seconds
+[2018.10.15-07.58.57:257][401]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:   [1/5] BeatDetector.init.gen.cpp
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:   [2/5] SoundManagerFMOD.cpp
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:   [3/5] SoundManagerFMOD.gen.cpp
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:   [4/5] UE4Editor-BeatDetector-2338.lib
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-2338.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-2338.exp
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:   [5/5] UE4Editor-BeatDetector-2338.dll
+[2018.10.15-07.58.57:258][401]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-2338.suppressed.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-2338.suppressed.exp
+[2018.10.15-07.58.57:258][401]CompilerResultsLog: Total build time: 673,51 seconds (Parallel executor: 654,11 seconds)
+[2018.10.15-07.58.57:258][401]LogMainFrame: MainFrame: Module compiling took 673.887 seconds
+[2018.10.15-07.58.59:105][401]LogClass: Could not find existing class SoundManagerFMOD in package /Script/BeatDetector for HotReload, assuming new class
+[2018.10.15-07.58.59:107][401]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0005 seconds. Added 3 classes and 4 folders.
+[2018.10.15-07.58.59:109][401]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-07.58.59:241][401]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2592 classes and 616 folders.
+[2018.10.15-07.58.59:241][401]Display: HotReload took 675.9s.
+[2018.10.15-07.58.59:243][401]Warning: HotReload operation took 675.9s.
+[2018.10.15-07.58.59:573][401]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.10.15-07.58.59:588][401]LogHotReload: New module detected: UE4Editor-BeatDetector-2338.dll
+[2018.10.15-07.58.59:656][402]LogHotReload: Starting Hot-Reload from IDE
+[2018.10.15-07.58.59:731][402]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0004 seconds. Added 3 classes and 4 folders.
+[2018.10.15-07.58.59:733][402]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-07.58.59:772][402]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2592 classes and 616 folders.
+[2018.10.15-07.58.59:775][402]Display: HotReload took  0.1s.
+[2018.10.15-09.32.14:853][116]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -invalidatemakefilesonly
+[2018.10.15-09.32.15:865][116]Invalidating makefiles only in this run.
+[2018.10.15-09.32.15:997][116]Candidate modules for hot reload:
+[2018.10.15-09.32.15:997][116]  BeatDetector
+[2018.10.15-09.32.15:997][116]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,7833 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-09.32.36:567][116]CompilerResultsLog: New page: Compilation - 15 oct. 2018 13:32:36
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (no existing makefile)
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-09.32.36:568][116]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 12,1712826 seconds
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: Error: D:\Isart\PFE\Rythm of Demon\BeatDetector\Source\BeatDetector\Scripts\Sound\SoundManagerFMOD.cpp(1) : error: Expected SoundManagerFMOD.h to be first header included.
+[2018.10.15-09.32.36:568][116]CompilerResultsLog: ERROR: Build canceled.
+[2018.10.15-09.32.36:568][116]LogMainFrame: MainFrame: Module compiling took 20.577 seconds
+[2018.10.15-09.32.36:569][116]Warning: HotReload failed, recompile failed
+[2018.10.15-09.32.36:574][116]Warning: RebindPackages failed because compilation failed.
+[2018.10.15-09.33.20:497][116]LogSlate: Window 'Message' being destroyed
+[2018.10.15-09.33.20:529][116]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.10.15-09.33.20:544][116]LogSlate: Took 0.001797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.10.15-09.33.38:464][671]LogSlate: Window 'Output Log' being destroyed
+[2018.10.15-09.33.38:472][671]LogSlate: Window 'Output Log' being destroyed
+[2018.10.15-09.33.39:281][719]Candidate modules for hot reload:
+[2018.10.15-09.33.39:281][719]  BeatDetector
+[2018.10.15-09.33.39:281][719]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,8639 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-09.33.39:285][719]Warning: Starting HotReload took  0.0s.
+[2018.10.15-09.33.59:672][943]CompilerResultsLog: New page: Compilation - 15 oct. 2018 13:33:59
+[2018.10.15-09.33.59:672][943]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (no existing makefile)
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: Building 7 actions with 8 processes...
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   [1/7] SoundManagerFMOD.cpp
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   d:\isart\pfe\rythm of demon\beatdetector\source\beatdetector\scripts\sound\SoundManagerFMOD.h(5): fatal error C1083: Impossible d'ouvrir le fichier include?: 'fmod.hpp'?: No such file or directory
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   [2/7] SoundManagerFMOD.gen.cpp
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   D:\Isart\PFE\Rythm of Demon\BeatDetector\Source\BeatDetector/Scripts/Sound/SoundManagerFMOD.h(5): fatal error C1083: Impossible d'ouvrir le fichier include?: 'fmod.hpp'?: No such file or directory
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   [3/7] BeatDetector.init.gen.cpp
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   [4/7] BPAudioManagerFMOD.cpp
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:   [5/7] BPAudioManagerFMOD.gen.cpp
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Isart\PFE\Rythm of Demon\BeatDetector\Binaries\Win64\UE4Editor-BeatDetector-8639.dll
+[2018.10.15-09.33.59:673][943]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.15-09.33.59:673][943]CompilerResultsLog: Total build time: 19,85 seconds (Parallel executor: 0,00 seconds)
+[2018.10.15-09.33.59:673][943]LogMainFrame: MainFrame: Module compiling took 20.397 seconds
+[2018.10.15-09.33.59:673][943]Warning: HotReload failed, recompile failed
+[2018.10.15-09.34.52:037][704]LogSlate: Window 'Plugins' being destroyed
+[2018.10.15-09.34.52:043][704]LogSlate: Window 'Plugins' being destroyed
+[2018.10.15-09.34.52:043][704]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.10.15-09.34.52:043][704]LogDirectoryWatcher: A directory notification for 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Plugins/' was aborted.
+[2018.10.15-09.47.04:060][110]Candidate modules for hot reload:
+[2018.10.15-09.47.04:060][110]  BeatDetector
+[2018.10.15-09.47.04:060][110]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,1946 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-09.47.04:064][110]Warning: Starting HotReload took  0.0s.
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: New page: Compilation - 15 oct. 2018 13:48:48
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (changes to module files)
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 16,4415296 seconds
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: Building 10 actions with 8 processes...
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [1/10] BeatDetector.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   c1xx: error C3859: Impossible de cr?er la m?moire virtuelle pour PCH
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   c1xx: note: le syst?me a retourn? le code 1455?: Le fichier de pagination est insuffisant pour terminer cette op?ration.
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: 
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: 
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   c1xx: note: visitez https://aka.ms/pch-help pour plus d'informations
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   c1xx: fatal error C1076: limite du compilateur?: limite du tas interne atteinte
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [2/10] BPAudioManagerFMOD.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [3/10] BeatDetector.init.gen.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [4/10] BPAudioManagerFMOD.gen.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [5/10] BeatDetectorGameModeBase.gen.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [6/10] BeatDetectorGameModeBase.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [7/10] SoundManagerFMOD.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:    D:\Isart\PFE\Rythm of Demon\BeatDetector\Source\BeatDetector\Scripts\Sound\SoundManagerFMOD.cpp(57) : error C2572: 'USoundManagerFMOD::pauseSound'?: red?finition de l'argument par d?faut?: param?tre 1
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   d:\isart\pfe\rythm of demon\beatdetector\source\beatdetector\scripts\sound\SoundManagerFMOD.h(27): note: voir la d?claration de 'USoundManagerFMOD::pauseSound'
+[2018.10.15-09.48.48:037][346]CompilerResultsLog:   [8/10] SoundManagerFMOD.gen.cpp
+[2018.10.15-09.48.48:037][346]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Isart\PFE\Rythm of Demon\BeatDetector\Binaries\Win64\UE4Editor-BeatDetector-1946.dll
+[2018.10.15-09.48.48:038][346]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.15-09.48.48:038][346]CompilerResultsLog: Total build time: 103,54 seconds (Parallel executor: 0,00 seconds)
+[2018.10.15-09.48.48:038][346]LogMainFrame: MainFrame: Module compiling took 103.983 seconds
+[2018.10.15-09.48.48:038][346]Warning: HotReload failed, recompile failed
+[2018.10.15-09.51.00:076][844]Candidate modules for hot reload:
+[2018.10.15-09.51.00:076][844]  BeatDetector
+[2018.10.15-09.51.00:076][844]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,1203 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-09.51.00:079][844]Warning: Starting HotReload took  0.0s.
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: New page: Compilation - 15 oct. 2018 13:52:06
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (modules to compile have changed)
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-09.52.06:079][803]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 15,5308712 seconds
+[2018.10.15-09.52.06:079][803]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.10.15-09.52.06:079][803]CompilerResultsLog:   [1/4] SoundManagerFMOD.cpp
+[2018.10.15-09.52.06:079][803]CompilerResultsLog:   [2/4] SoundManagerFMOD.gen.cpp
+[2018.10.15-09.52.06:079][803]CompilerResultsLog:   [3/4] UE4Editor-BeatDetector-1203.lib
+[2018.10.15-09.52.06:080][803]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1203.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1203.exp
+[2018.10.15-09.52.06:080][803]CompilerResultsLog:   [4/4] UE4Editor-BeatDetector-1203.dll
+[2018.10.15-09.52.06:080][803]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1203.suppressed.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1203.suppressed.exp
+[2018.10.15-09.52.06:080][803]CompilerResultsLog: Total build time: 65,47 seconds (Parallel executor: 38,67 seconds)
+[2018.10.15-09.52.06:080][803]LogMainFrame: MainFrame: Module compiling took 66.009 seconds
+[2018.10.15-09.52.08:055][803]LogClass: Could not find existing class BPAudioManagerFMOD in package /Script/BeatDetector for HotReload, assuming new class
+[2018.10.15-09.52.08:059][803]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0007 seconds. Added 4 classes and 5 folders.
+[2018.10.15-09.52.08:061][803]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-09.52.08:131][803]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2593 classes and 617 folders.
+[2018.10.15-09.52.08:131][803]Display: HotReload took 68.1s.
+[2018.10.15-09.52.34:207][356]Candidate modules for hot reload:
+[2018.10.15-09.52.34:207][356]  BeatDetector
+[2018.10.15-09.52.34:207][356]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,8764 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-09.52.34:210][356]Warning: Starting HotReload took  0.0s.
+[2018.10.15-09.53.05:788][251]CompilerResultsLog: New page: Compilation - 15 oct. 2018 13:53:05
+[2018.10.15-09.53.05:789][251]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-09.53.05:789][251]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-09.53.05:789][251]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 16,125846 seconds
+[2018.10.15-09.53.05:789][251]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:   [1/4] SoundManagerFMOD.cpp
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:   [2/4] SoundManagerFMOD.gen.cpp
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:   [3/4] UE4Editor-BeatDetector-8764.lib
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-8764.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-8764.exp
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:   [4/4] UE4Editor-BeatDetector-8764.dll
+[2018.10.15-09.53.05:789][251]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-8764.suppressed.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-8764.suppressed.exp
+[2018.10.15-09.53.05:789][251]CompilerResultsLog: Total build time: 31,06 seconds (Parallel executor: 10,07 seconds)
+[2018.10.15-09.53.05:789][251]LogMainFrame: MainFrame: Module compiling took 31.587 seconds
+[2018.10.15-09.53.05:908][251]LogClass: Could not find existing class SoundManagerFMOD in package /Script/BeatDetector for HotReload, assuming new class
+[2018.10.15-09.53.05:911][251]LogHotReload: Re-instancing SoundManagerFMOD after hot-reload.
+[2018.10.15-09.53.05:961][251]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0004 seconds. Added 4 classes and 5 folders.
+[2018.10.15-09.53.05:964][251]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-09.53.06:022][251]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2593 classes and 617 folders.
+[2018.10.15-09.53.06:022][251]Display: HotReload took 31.8s.
+[2018.10.15-09.54.05:805][505]LogAssetEditorManager: Opening Asset editor for Class /Script/BeatDetector.BPAudioManagerFMOD
+[2018.10.15-10.00.31:206][440]Candidate modules for hot reload:
+[2018.10.15-10.00.31:206][440]  BeatDetector
+[2018.10.15-10.00.31:206][440]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,8946 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-10.00.31:210][440]Warning: Starting HotReload took  0.0s.
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: New page: Compilation - 15 oct. 2018 14:01:01
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (changes to module files)
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-10.01.01:951][285]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 15,8632159 seconds
+[2018.10.15-10.01.01:951][285]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.10.15-10.01.01:951][285]CompilerResultsLog:   [1/4] SoundManagerFMOD.cpp
+[2018.10.15-10.01.01:951][285]CompilerResultsLog:    D:\Isart\PFE\Rythm of Demon\BeatDetector\Source\BeatDetector\Scripts\Sound\SoundManagerFMOD.cpp(53) : error C2572: 'USoundManagerFMOD::pauseSound'?: red?finition de l'argument par d?faut?: param?tre 1
+[2018.10.15-10.01.01:952][285]CompilerResultsLog:   d:\isart\pfe\rythm of demon\beatdetector\source\beatdetector\scripts\sound\SoundManagerFMOD.h(27): note: voir la d?claration de 'USoundManagerFMOD::pauseSound'
+[2018.10.15-10.01.01:952][285]CompilerResultsLog:   [2/4] SoundManagerFMOD.gen.cpp
+[2018.10.15-10.01.01:952][285]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Isart\PFE\Rythm of Demon\BeatDetector\Binaries\Win64\UE4Editor-BeatDetector-8946.dll
+[2018.10.15-10.01.01:952][285]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.10.15-10.01.01:952][285]CompilerResultsLog: Total build time: 29,94 seconds (Parallel executor: 0,00 seconds)
+[2018.10.15-10.01.01:952][285]LogMainFrame: MainFrame: Module compiling took 30.751 seconds
+[2018.10.15-10.01.01:952][285]Warning: HotReload failed, recompile failed
+[2018.10.15-10.04.00:801][157]Candidate modules for hot reload:
+[2018.10.15-10.04.00:801][157]  BeatDetector
+[2018.10.15-10.04.00:801][157]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,1741 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-10.04.00:805][157]Warning: Starting HotReload took  0.0s.
+[2018.10.15-10.04.09:536][682]CompilerResultsLog: New page: Compilation - 15 oct. 2018 14:04:09
+[2018.10.15-10.04.09:536][682]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-10.04.09:536][682]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.10.15-10.04.09:537][682]CompilerResultsLog:   [1/3] SoundManagerFMOD.cpp
+[2018.10.15-10.04.09:537][682]CompilerResultsLog:   [2/3] UE4Editor-BeatDetector-1741.lib
+[2018.10.15-10.04.09:537][682]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1741.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1741.exp
+[2018.10.15-10.04.09:537][682]CompilerResultsLog:   [3/3] UE4Editor-BeatDetector-1741.dll
+[2018.10.15-10.04.09:537][682]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1741.suppressed.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-1741.suppressed.exp
+[2018.10.15-10.04.09:537][682]CompilerResultsLog: Total build time: 8,31 seconds (Parallel executor: 3,91 seconds)
+[2018.10.15-10.04.09:537][682]LogMainFrame: MainFrame: Module compiling took 8.743 seconds
+[2018.10.15-10.04.11:081][682]LogClass: Could not find existing class SoundManagerFMOD in package /Script/BeatDetector for HotReload, assuming new class
+[2018.10.15-10.04.11:084][682]LogHotReload: Re-instancing SoundManagerFMOD after hot-reload.
+[2018.10.15-10.04.11:133][682]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0005 seconds. Added 4 classes and 5 folders.
+[2018.10.15-10.04.11:136][682]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-10.04.11:195][682]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2593 classes and 617 folders.
+[2018.10.15-10.04.11:195][682]Display: HotReload took 10.4s.
+[2018.10.15-10.18.46:811][558]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -invalidatemakefilesonly
+[2018.10.15-10.18.47:823][558]Invalidating makefiles only in this run.
+[2018.10.15-10.18.47:948][558]Candidate modules for hot reload:
+[2018.10.15-10.18.47:948][558]  BeatDetector
+[2018.10.15-10.18.47:948][558]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,6232 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: New page: Compilation - 15 oct. 2018 14:19:07
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (no existing makefile)
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-10.19.07:454][558]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Error: D:/Isart/PFE/Rythm of Demon/BeatDetector/Source/BeatDetector/Scripts/Sound/BluePrintClass/BPAudioManagerFMOD.h(34)  : Error: Cannot find class '', to resolve delegate 'string'
+[2018.10.15-10.19.07:454][558]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'BeatDetectorEditor' (platform: Win64, module info: D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.10.15-10.19.07:454][558]LogMainFrame: MainFrame: Module compiling took 19.512 seconds
+[2018.10.15-10.19.07:454][558]Warning: HotReload failed, recompile failed
+[2018.10.15-10.19.07:459][558]Warning: RebindPackages failed because compilation failed.
+[2018.10.15-10.19.11:436][558]LogSlate: Window 'Message' being destroyed
+[2018.10.15-10.19.11:445][558]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.10.15-10.46.21:273][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.46.31:860][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.46.47:592][ 33]LogSlate: Window 'Select Path' being destroyed
+[2018.10.15-10.47.03:308][974]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.10.15-10.47.03:400][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-10.47.06:230][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.15-10.47.07:605][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.47.53:766][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.15-10.47.53:795][362]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_1_Auto1D8E0B36F4664953E229BCE96DC5E4068.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.10.15-10.47.53:799][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.063
+[2018.10.15-10.47.53:799][362]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2018.10.15-10.48.50:158][272]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\Isart\PFE\Rythm of Demon\BeatDetector\Content\Sounds/Aaron_Smith-Dancin.mp3)
+[2018.10.15-10.48.59:222][468]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2018.10.15-10.49.00:733][468]LogSlate: Window 'Message' being destroyed
+[2018.10.15-10.49.00:739][468]LogSlate: Window 'Save Level As' being destroyed
+[2018.10.15-10.49.00:893][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.15-10.49.00:986][468]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled722FD9224ABC5C06B68A318B693CFE42.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled.umap'
+[2018.10.15-10.49.01:023][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled_BuiltData.uasset" SILENT=true
+[2018.10.15-10.49.01:088][468]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_BuiltData7936D5B3443D2535101D7984FD72652C.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled_BuiltData.uasset'
+[2018.10.15-10.49.01:122][468]LogFileHelpers: Saving map 'Untitled' took 0.372
+[2018.10.15-10.49.02:300][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.15-10.49.02:350][537]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/UntitledFA29C5B441E8BFA74396FBBCF089D2F7.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled.umap'
+[2018.10.15-10.49.02:368][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled_BuiltData.uasset" SILENT=true
+[2018.10.15-10.49.02:379][537]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_BuiltData4AFF2CA648BBD940126A85A1995D70A3.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Untitled_BuiltData.uasset'
+[2018.10.15-10.49.03:850][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Aaron_Smith-Dancin" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Sounds/Aaron_Smith-Dancin.uasset" SILENT=true
+[2018.10.15-10.49.03:854][618]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Aaron_Smith-Dancin6ECC30E541B79DB4AA58C7A1135C755D.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/Sounds/Aaron_Smith-Dancin.uasset'
+[2018.10.15-10.49.21:845][544]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.15-10.49.32:467][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.49.33:513][236]LogEditorActor: Deleted Actor: Actor
+[2018.10.15-10.49.33:538][236]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.10.15-10.49.34:928][319]LogEditorActor: Deleted Actor: AudioActor_C
+[2018.10.15-10.49.34:950][319]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.10.15-10.49.38:436][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.49.38:996][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset" SILENT=true
+[2018.10.15-10.49.39:007][553]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor7A53B1DA45D64635B9E7B4B70C509D77.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset'
+[2018.10.15-10.49.40:761][658]LogSlate: Took 0.001338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.15-10.49.42:407][756]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/AudioActor.AudioActor
+[2018.10.15-10.49.43:037][756]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.10.15-10.49.50:261][ 63]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:311).
+[2018.10.15-10.49.50:312][ 63]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:312).
+[2018.10.15-10.49.50:371][ 63]LogRenderer: Reallocating scene render targets to support 964x476 Format 10 NumSamples 1 (Frame:313).
+[2018.10.15-10.49.50:485][ 63]LogRenderer: Reallocating scene render targets to support 964x480 Format 10 NumSamples 1 (Frame:315).
+[2018.10.15-10.49.50:703][ 63]LogRenderer: Reallocating scene render targets to support 964x492 Format 10 NumSamples 1 (Frame:318).
+[2018.10.15-10.49.50:764][ 63]LogRenderer: Reallocating scene render targets to support 964x508 Format 10 NumSamples 1 (Frame:319).
+[2018.10.15-10.50.22:485][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.51.40:555][914]BlueprintLog: New page: Compile AudioActor
+[2018.10.15-10.55.19:045][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.58.21:244][653]LogAssetEditorManager: Opening Asset editor for Class /Script/BeatDetector.BPAudioManagerFMOD
+[2018.10.15-10.58.21:466][653]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Source/BeatDetector/Scripts/Sound/BluePrintClass/BPAudioManagerFMOD.cpp'
+[2018.10.15-10.59.05:964][109]LogAssetEditorManager: Opening Asset editor for Class /Script/BeatDetector.BPAudioManagerFMOD
+[2018.10.15-10.59.06:140][109]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Source/BeatDetector/Scripts/Sound/BluePrintClass/BPAudioManagerFMOD.h'
+[2018.10.15-10.59.06:219][109]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Source/BeatDetector/Scripts/Sound/BluePrintClass/BPAudioManagerFMOD.cpp'
+[2018.10.15-10.59.33:995][662]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.15-10.59.34:344][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.15-10.59.35:036][720]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.15-10.59.35:938][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-10.59.35:994][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.15-10.59.36:019][772]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_Auto2BCDAD6F04D004D55A0F660B173B16E3A.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto2.umap'
+[2018.10.15-10.59.36:023][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.061
+[2018.10.15-10.59.36:023][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2018.10.15-10.59.36:028][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/AudioActor] ([1] browsable assets)...
+[2018.10.15-10.59.36:028][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/AudioActor]
+[2018.10.15-10.59.36:028][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.10.15-10.59.36:039][772]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor_Auto219FFD3DD411DCFEDB31479808F76D7B9.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto2.uasset'
+[2018.10.15-10.59.36:041][772]LogFileHelpers: Auto-saving content packages took 0.016
+[2018.10.15-10.59.40:378][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.15-10.59.41:019][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.15-10.59.56:173][975]LogSlate: Window 'Select Path' being destroyed
+[2018.10.15-11.00.02:957][379]LogSlate: Window 'Select Path' being destroyed
+[2018.10.15-11.01.43:941][970]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.15-11.01.49:908][327]LogAssetEditorManager: Opening Asset editor for Class /Script/BeatDetector.BPAudioManagerFMOD
+[2018.10.15-11.02.09:587][411]LogSlate: Window 'Select Path' being destroyed
+[2018.10.15-11.41.54:150][296]LogFMOD: Warning: c:\jk\workspace\1.10_UE4.20_Win64\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+
+[2018.10.15-11.41.54:150][296]LogFMOD: Warning: c:\jk\workspace\1.10_UE4.20_Win64\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+
+[2018.10.15-11.41.54:932][298]LogHttp: Warning: 0000018E89F39080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.10.15-11.41.54:932][298]LogHttp: Warning: 0000018E89F39080: libcurl info message cache 0 (Connection 69 seems to be dead!)
+[2018.10.15-11.41.54:932][298]LogHttp: Warning: 0000018E89F39080: libcurl info message cache 1 (Closing connection 69)
+[2018.10.15-11.41.54:932][298]LogHttp: Warning: 0000018E89F39080: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.10.15-11.41.54:932][298]LogHttp: Warning: 0000018E89F39080: libcurl info message cache 3 (Closing connection 70)
+[2018.10.15-12.15.04:706][910]LogSlate: Took 0.002055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.15-12.15.47:517][419]LogSlate: Window 'AudioActor*' being destroyed
+[2018.10.15-12.15.47:527][419]LogSlate: Window 'AudioActor*' being destroyed
+[2018.10.15-12.15.49:037][501]Candidate modules for hot reload:
+[2018.10.15-12.15.49:037][501]  BeatDetector
+[2018.10.15-12.15.49:038][501]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BeatDetector,6736 Win64 Development -TargetType=Editor -Project="D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" -canskiplink "D:/Isart/PFE/Rythm of Demon/BeatDetector/BeatDetector.uproject" ]
+[2018.10.15-12.15.49:042][501]Warning: Starting HotReload took  0.0s.
+[2018.10.15-12.16.15:148][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.15-12.16.15:243][ 62]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_Auto382C4BA034BA6FDB088F2F6A5F035E899.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto3.umap'
+[2018.10.15-12.16.15:248][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.143
+[2018.10.15-12.16.15:248][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.143
+[2018.10.15-12.16.15:252][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/AudioActor] ([1] browsable assets)...
+[2018.10.15-12.16.15:252][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/AudioActor]
+[2018.10.15-12.16.15:252][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.10.15-12.16.15:260][ 62]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor_Auto39B908EEE43BA9001D605E3B2A08E7320.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto3.uasset'
+[2018.10.15-12.16.15:262][ 62]LogFileHelpers: Auto-saving content packages took 0.011
+[2018.10.15-12.16.24:004][587]CompilerResultsLog: New page: Compilation - 15 oct. 2018 16:16:24
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Creating makefile for hot reloading BeatDetectorEditor (no existing makefile)
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Target Platform -- Win64
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Parsing headers for BeatDetectorEditor
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   Running UnrealHeaderTool "D:\Isart\PFE\Rythm of Demon\BeatDetector\BeatDetector.uproject" "D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\BeatDetectorEditor\Development\BeatDetectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Reflection code generated for BeatDetectorEditor in 14,4015707 seconds
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Building 6 actions with 8 processes...
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [1/6] BeatDetector.init.gen.cpp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [2/6] SoundManager_FMOD.cpp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [3/6] BPAudioManagerFMOD.gen.cpp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [4/6] BPAudioManagerFMOD.cpp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [5/6] UE4Editor-BeatDetector-6736.lib
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-6736.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-6736.exp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:   [6/6] UE4Editor-BeatDetector-6736.dll
+[2018.10.15-12.16.24:005][587]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-6736.suppressed.lib et de l'objet D:\Isart\PFE\Rythm of Demon\BeatDetector\Intermediate\Build\Win64\UE4Editor\Development\BeatDetector\UE4Editor-BeatDetector-6736.suppressed.exp
+[2018.10.15-12.16.24:005][587]CompilerResultsLog: Total build time: 34,23 seconds (Parallel executor: 11,59 seconds)
+[2018.10.15-12.16.24:005][587]LogMainFrame: MainFrame: Module compiling took 34.977 seconds
+[2018.10.15-12.16.25:776][587]LogClass: Could not find existing class BPAudioManagerFMOD in package /Script/BeatDetector for HotReload, assuming new class
+[2018.10.15-12.16.25:776][587]LogClass: Function GetSongName is new.
+[2018.10.15-12.16.25:776][587]LogClass: Function InitializeManager is new.
+[2018.10.15-12.16.25:776][587]LogClass: Function PauseSong is new.
+[2018.10.15-12.16.25:776][587]LogClass: Function PlaySong is new.
+[2018.10.15-12.16.25:785][587]LogHotReload: Re-instancing BPAudioManagerFMOD after hot-reload.
+[2018.10.15-12.16.25:908][587]LogContentBrowser: Native class hierarchy updated for 'BeatDetector' in 0.0006 seconds. Added 4 classes and 5 folders.
+[2018.10.15-12.16.25:912][587]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.15-12.16.26:228][587]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2593 classes and 617 folders.
+[2018.10.15-12.16.26:228][587]Display: HotReload took 37.2s.
+[2018.10.15-12.18.19:784][ 18]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/AudioActor.AudioActor
+[2018.10.15-12.18.28:524][496]LogSlate: Window 'AudioActor*' being destroyed
+[2018.10.15-12.18.28:531][496]LogSlate: Window 'AudioActor*' being destroyed
+[2018.10.15-12.18.30:204][591]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/AudioActor.AudioActor
+[2018.10.15-12.18.38:914][ 11]BlueprintLog: New page: Compile AudioActor
+[2018.10.15-12.18.44:918][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset" SILENT=true
+[2018.10.15-12.18.44:926][344]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor539B034B46A7B828274628BE8C18A4EB.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset'
+[2018.10.15-12.19.08:909][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-12.19.14:784][ 91]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.15-12.26.21:581][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.15-12.26.21:606][570]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_Auto4A76A829A43D72997490D6B94130B9AB9.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto4.umap'
+[2018.10.15-12.26.21:609][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.098
+[2018.10.15-12.26.21:609][570]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.098
+[2018.10.15-12.26.21:613][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/AudioActor] ([1] browsable assets)...
+[2018.10.15-12.26.21:613][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/AudioActor]
+[2018.10.15-12.26.21:613][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.10.15-12.26.21:963][570]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor_Auto401BD84DE4C44C751D1F141ACA397BEB4.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto4.uasset'
+[2018.10.15-12.26.21:965][570]LogFileHelpers: Auto-saving content packages took 0.353
+[2018.10.15-12.27.40:655][935]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.15-12.29.43:214][805]BlueprintLog: New page: Compile AudioActor
+[2018.10.15-12.36.37:026][543]LogRenderer: Reallocating scene render targets to support 996x540 Format 10 NumSamples 1 (Frame:2365).
+[2018.10.15-12.36.37:755][585]BlueprintLog: New page: Compile AudioActor
+[2018.10.15-12.37.11:799][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.15-12.37.11:927][219]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Untitled_Auto54D9DC5F6461A644D24824CA5DF2EE025.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/Untitled_Auto5.umap'
+[2018.10.15-12.37.11:930][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.160
+[2018.10.15-12.37.11:930][219]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2018.10.15-12.37.11:934][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/AudioActor] ([1] browsable assets)...
+[2018.10.15-12.37.11:934][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/AudioActor]
+[2018.10.15-12.37.11:934][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.10.15-12.37.11:956][219]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor_Auto5AFEB18C34AF31563964A8C938FC50714.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/Autosaves/Game/BluePrint/AudioActor_Auto5.uasset'
+[2018.10.15-12.37.11:957][219]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.10.15-12.39.35:307][728]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.15-12.39.45:612][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.15-12.39.45:629][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/AudioActor" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset" SILENT=true
+[2018.10.15-12.39.45:645][ 70]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/AudioActor500F4D074623349EC03D4EBAFA764CA0.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/AudioActor.uasset'
+[2018.10.15-12.39.48:471][238]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrint/NewBlueprint.NewBlueprint
+[2018.10.15-12.39.52:601][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/NewBlueprint" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/NewBlueprint.uasset" SILENT=true
+[2018.10.15-12.39.52:610][427]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/NewBlueprint0D3B09784CCC0960C412C2829F639D55.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/NewBlueprint.uasset'
+[2018.10.15-12.42.43:698][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/NewBlueprint" FILE="D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/NewBlueprint.uasset" SILENT=true
+[2018.10.15-12.42.43:711][321]LogSavePackage: Moving 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Saved/NewBlueprint7E6A18324FDA322378BF359479463E78.tmp' to 'D:/Isart/PFE/Rythm of Demon/BeatDetector/Content/BluePrint/NewBlueprint.uasset'
+[2018.10.15-12.42.53:511][765]LogEditorTransaction: Undo Edit Min Desired Width
+[2018.10.15-12.42.53:839][765]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.316 s
+[2018.10.15-12.42.53:839][765]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.15-12.42.53:839][765]LogOutputDevice: Error: 
+[2018.10.15-12.42.53:839][765]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.10.15-12.42.53:839][765]LogOutputDevice: Error: 
+[2018.10.15-12.42.53:839][765]LogOutputDevice: Error: Stack: 
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda6c771f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda69b0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda69cb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda23beedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2364576 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b9d9e88 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b9dac2d UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b9da8ce UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9ba244e1 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b91ce8a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b8a0eb8 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b8264ea UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b9404f9 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9b8a3079 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda38c6a2e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36d93b0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda3671444 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd957f6cd4 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd95795a96 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd957273c4 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd95829a79 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd957eee5b UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9ab8fce9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda3c4d8d3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda27349b5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9acfe4cd UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2364dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda23901fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2376535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda23e2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2429b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda23bc81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffd9ab905b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36724df UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36b437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2c13a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda2c01a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36370ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36b606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffda36a9846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffdfeb1ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffdfeb10270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffdfeb1f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffdfeb0c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffe12b46cc1 USER32.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffe12b46693 USER32.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffdfeb20646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ff7be2554e5 UE4Editor.exe!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ff7be265b3c UE4Editor.exe!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ff7be265bba UE4Editor.exe!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ff7be273dac UE4Editor.exe!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ff7be275aaa UE4Editor.exe!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffe12223034 KERNEL32.DLL!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: [Callstack] 0x00007ffe13481461 ntdll.dll!UnknownFunction []
+[2018.10.15-12.42.53:840][765]LogOutputDevice: Error: 
+[2018.10.15-12.42.53:850][765]LogStats:                SubmitErrorReport -  0.000 s
+[2018.10.15-12.42.55:045][765]LogFMOD: Warning: c:\jk\workspace\1.10_UE4.20_Win64\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+
+[2018.10.15-12.42.55:045][765]LogFMOD: Warning: c:\jk\workspace\1.10_UE4.20_Win64\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+

@@ -1,0 +1,5 @@
+D:\Isart\PFE\Test\BeatDetector\Source\BeatDetector\BeatDetector.Build.cs
+D:\Isart\PFE\Test\BeatDetector\Plugins\FMODStudio\Source\FMODStudio\FMODStudio.Build.cs
+D:\Isart\PFE\Test\BeatDetector\Plugins\FMODStudio\Source\FMODStudioEditor\FMODStudioEditor.Build.cs
+D:\Isart\PFE\Test\BeatDetector\Source\BeatDetector.Target.cs
+D:\Isart\PFE\Test\BeatDetector\Source\BeatDetectorEditor.Target.cs
